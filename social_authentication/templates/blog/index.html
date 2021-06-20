@@ -8,7 +8,7 @@
 <body>
 
 {% if user.is_authenticated %}
-    <p>Welcome, {{ user.username }}</p>
+    <p>Welcome, {{ user.first_name }}</p>
 
 {% else %}
 <p>Please Login <a href="#">Here</a></p>
